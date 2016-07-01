@@ -37,11 +37,11 @@ void setup() {
   arduboy.setCursor(4, 9);
 
   // then we print to screen what is in the Quotation marks ""
-  arduboy.print(F("This is a test! :)"));
+  arduboy.print(F("Welcome to"));
   arduboy.setCursor(4, 19);
-  arduboy.print(F("If you can read this,"));
-  arduboy.setCursor(4, 29);
-  arduboy.print(F("It works!"));
+  arduboy.print(F("Arduboy RPG!"));
+  //arduboy.setCursor(4, 29);
+  //arduboy.print(F("It works!"));
   arduboy.setCursor(4, 39);
   arduboy.print(F("Press 'A' to begin."));
   
